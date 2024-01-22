@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+    
+    .about-left-side{
+        width: 1600px;
+    }   
+    
+    .about-right-side{
+        width: 500px;
+    }
+    
+#hero-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #E9DCD0;
+    color: black;
+    max-width: 1376px;
+    width: 100%;
+}
+
+
+#hero-about img {
+  box-sizing: content-box;
+  border-radius: 150px 30px;
+  margin-top: 40px;
+  margin-left: 48px;
+  width: 580px;
+  /* Adjust the size of your photo */
+  height: 625px;
+  box-shadow: 25px 25px 50px #555;
+}
+    .about-container {
+        display: flex;
+        font-size: 42px;
+        font-weight: 600;
+        height: 100px;
+      }
+
+      
+.about-container .static_text {
+    color: black;
+    padding: 10px;
+    width: 127px;
+  }
+  
+  .about-words {
+    overflow: hidden;
+  }
+  
+ .about-words span {
+    width: 500px;
+    display: block;
+    height: 100%;
+    letter-spacing: 160%;
+    padding-left: 10px;
+    animation: spin_words 5s infinite;
+  }
+  
+  @keyframes spin_words {
+  
+    0%,
+    100% {
+      transform: translateY(10px);
+    }
+  
+    50% {
+      transform: translateY(-200px);
+    }
+  }
+  
+  /* Add your existing styles here */
+
+.services-container {
+    width: 100%;
+    margin: 128px auto;
+    padding: 20px;
+    background-color: #e9dcd0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services-container h2 {
+    font-style: italic;
+    font-size: 48px;
+  line-height: 56px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #564949;
+    letter-spacing: -3%;
+    margin-left: 128px;
+
+  }
+  
+  .service-card {
+    margin-bottom: 32px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  
+  .service-card img {
+    max-width: 80px; /* Adjust the size of the logo */
+    margin-bottom: 10px;
+    /* margin-left: 10px; */
+    padding-left: 16px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    line-height: 32px;
+    color: #261F22;
+
+    margin-left: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #34495E;
+    margin-left: 20px;
+  }
+
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 807px;
+    /* Adjusted height */
+    background-color: #E9DCD0;
+    margin: 128px auto 0;
+    box-shadow: 0px 20px 80px #555;
+  
+  }
+  
+  .services-sub-container,
+  .tools-sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .tools-card {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 32px;
+    background-color: #FFFFF0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    flex: 2;
+  }
+  
+  .skill-card {
+    height: 386px;
+    width: 352px;
+    padding-left: 30px;
+  }
+  
+  .skill-card li {
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(15, 15, 15, 0.75);
+  }
+  
+  .service-row, .center-service-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+    width: 1400px;
+    margin-left: 164px;
+  }
+  
+  .service-card {
+    width: 576px; /* Adjust the width of the cards as needed */
+    height: 298px;
+    padding: 32px 16px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  .center-card {
+    
+    width: 45%; /* Full width for the center card */
+  }
+
+  .center-service-row{
+    margin-left: 550px;
+  }
+
