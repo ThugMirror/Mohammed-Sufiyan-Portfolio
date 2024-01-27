@@ -33,7 +33,7 @@
       flex-direction: column;
       align-items: center;
       min-height: 108vh;
-      width: 150%;
+      width: 100%;
       background-color: #E9DCD0;
       box-shadow: 0px 20px 80px #5A5A5A;
       
@@ -48,7 +48,7 @@
       margin-left: 0px;
       background-color: #E9DCD0;
       color: black;
-      margin-top: 40px;
+      margin-top: 8px;
       max-width:1200px;
       /* Set a maximum width for the hero section */
       width: 100%;
@@ -72,7 +72,7 @@
     }
     
     #hero h1 {
-      font-size: 40px;
+      font-size: 30px;
       line-height: 40px;
       font-weight: 400;
       margin: 10px 0;
@@ -83,18 +83,18 @@
       font-size: 20px;
       line-height: 24px;
       font-weight: 400;
-      margin: 20px 0;
+      margin: 20px 8px;
       color: #5A5A5A;
-      text-align: center;
+      text-align: left;
     }
     
     #hero img {
       box-sizing: content-box;
       border-radius: 150px 30px;
       margin-top: 40px;
-      margin-left: 48px;
-      width: 360px;
-      height: 440px;
+      margin-left: 0px;
+      width: 340px;
+      height: 420px;
       box-shadow: 25px 25px 50px #555;
       margin-bottom: 80px;
     }
@@ -121,8 +121,9 @@
 
     
 .role-container {
+  white-space: normal;
   display: flex;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
 }
 
@@ -140,9 +141,9 @@
 }
 
 .words span {
-  width: 80vh;
+  width: 44vh;
   display: block;
-  height: 110%;
+  height: 85%;
   padding-left: 8px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -523,7 +524,7 @@
     background-color: #E9DCD0;
     margin: 128px auto  0;
     box-shadow: 0px 20px 80px #555;
-  width: 150%;
+  width: 100%;
   }
   
   .skill-sub-container,
@@ -547,7 +548,7 @@
   
   .skill-card {
     height: 486px;
-    width: 400px;
+    width: 324px;
     /* padding-left: 30px; */
   }
   
@@ -560,7 +561,7 @@
   
   .tools-card {
     height: 250px;
-    width: 400px;
+    width: 324px;
   }
   
   .tools-card div {
@@ -1003,7 +1004,7 @@
   align-items: center;
   margin-top: 128px;
   background-color: #E9DCD0;
-  width: 150%;
+  width: 100%;
 }
 /* Introduction Section */
 .work-intro {
@@ -1031,7 +1032,7 @@ margin-top: 128px;
 background-color: #FFFFF0;
 width: 100%;
 box-shadow: rgba(0, 0, 0, 0.1px);
-height: 120vh;
+height: 100vh;
 }
 
 .project-title {
@@ -1052,7 +1053,7 @@ background: #FFFFF0;
 }
 
 .slider-container{
-height: 70vh;
+height: 50vh;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -1076,12 +1077,12 @@ display: flex;
 .slide, .slidet {
 width: 20%;
 transition: 2s;
-margin-top: 64px;
+margin-top: 16px;
 }
 
 .slide img, .slidet img {
 width: 100%;
-height: 56vh;
+height: 45vh;
 border-radius: 15px;
 }
 
@@ -1091,6 +1092,7 @@ width: 496px;
 margin-top: -48px;
 display: flex;
 justify-content: center;
+display: none;
 }
 
 .navigation-auto {
@@ -1099,6 +1101,7 @@ display: flex;
 width: 496px;
 justify-content: center;
 margin-top: 562px;
+display: none;
 }
 
 .project-description {
@@ -1125,16 +1128,16 @@ margin-top: 24px;
 }
 
 .gym{
-  height: 70vh;
+  height: 45vh;
   background-color: #fffff0;
   border-radius: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 8px;
   width: 100%;
   margin-top: 48px;
 }
 .gym img{
 width:100%;
-height: 70vh;
+height: 45vh;
 border-radius: 20px;
 }
 
@@ -1552,9 +1555,9 @@ margin-top: 32px;
   .contact-container {
     padding: 20px 24px;
     margin-top: 128px;
-    height: 60vh;
+    height: 72vh;
     background-color: #E9DCD0;
-    width: 150%;
+    width: 100%;
   }
 
   .contact-heading {
@@ -1768,9 +1771,9 @@ margin-top: 32px;
     box-sizing: content-box;
     border-radius: 150px 30px;
     margin-top: 40px;
-    margin-left: 48px;
-    width: 360px;
-    height: 440px;
+    margin-left: 0px;
+    width: 340px;
+    height: 420px;
     box-shadow: 25px 25px 50px #555;
     margin-bottom: 80px;
   }
@@ -1791,7 +1794,7 @@ margin-top: 32px;
 
 .about-container {
   display: flex;
-  font-size: 42px;
+  font-size:30px;
   font-weight: 600;
   height: 100px;
 }
@@ -1808,7 +1811,7 @@ margin-top: 32px;
 }
 
 .services-container {
-width: 150%;
+width: 100%;
 margin: 128px 0px;
 padding: 20px;
 background-color: #e9dcd0;
@@ -1817,15 +1820,14 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 .services-container h2 {
 font-style: italic;
-font-size: 32px;
+font-size: 22px;
 line-height: 40px;
 font-weight: bold;
-margin-bottom: 20px;
 color: #564949;
 letter-spacing: -3%;
 margin-left: 24px;
 width: 100%;
-margin-bottom: 96px;
+margin-bottom: 36px;
 }
 
 .service-row, .center-service-row {
@@ -1847,6 +1849,21 @@ background-color: #f9f9f9;
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 border-radius: 15px;
 }
+
+.service-card h3{
+  font-size: 18px;
+  line-height: 27px;
+  color: #261F22;
+  margin-left: 20px;
+}
+
+.service-card p{
+font-size: 14px;
+  line-height: 22px;
+  color: #34495E;
+  margin-left: 10px;
+}
+
 }
 
 /* Small Devices (tablets) */
@@ -2068,8 +2085,8 @@ margin-top: 128px;
   padding: 40px 24px;
   background-color: #E9DCD0;
   box-shadow: 0 0 20px #555;
-  width: 150%;
-  height: 132vh;
+  width: 100%;
+  height: 136vh;
 }
 .left-side {
 flex: 1;
@@ -2082,7 +2099,7 @@ margin-left: 0;
 width: 100%;
 }
 .left-side h2 {
-font-size: 50px;
+font-size: 40px;
 line-height: 50px;
 font-weight: 500;
 margin-bottom: 72px;
@@ -2091,7 +2108,7 @@ width: 100%;
 margin-top: 128px;
 }
 .left-side p {
-font-size: 26px;
+font-size: 20px;
 line-height: 30px;
 color: #555;
 margin-bottom: 50px;
@@ -2101,7 +2118,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 margin-bottom: 16px;
-font-size: 28px;
+font-size: 20px;
 line-height: 50px;
 }
 #contact-tools-card h3{
@@ -2371,7 +2388,7 @@ font-size: 24px;
   justify-content: space-between;
   align-items: center;
   bottom: 0;
-  width: 151%;
+  width: 100%;
   margin-left: 0;
   left: 0;
   margin-top: 128px;
@@ -2382,11 +2399,11 @@ width: 100%;
 }
 
 .social-icon svg{
-width: 20px;
-height: 20px;
+width: 18px;
+height: 18px;
 }
 .copyright {
-font-size: 10px;
+font-size: 8px;
 }
 }
 @media only screen and (min-width: 577px) and (max-width: 767px) {
@@ -2447,25 +2464,25 @@ font-size: 10px;
 /* Styles for phones */
 .thumbnail-container {
   margin-left: 4px;
-  width: 150%;
-  height: 350px;
+  width: 100%;
+  height: 184px;
   overflow: hidden;
   margin-bottom: 32px;
 }
 
 .thumbnail-container img {
-width: 83%;
-margin-top: -20px;
-margin-left: 60px;
+width: 80%;
+margin-top: -16px;
+margin-left: 50px;
 }
 
 .shoe-container {
-width: 150%;
+width: 100%;
 margin-left: 8px;
 background: #fffff0;
 border-radius: 25px;
 text-align: center;
-padding: 48px 40px;
+padding: 48px 30px;
 box-shadow: 0px 20px 80px #5A5A5A;
 }
 
@@ -2496,21 +2513,28 @@ margin-right: 32px;
 .category h2{
 margin-top: 8px;
 width: 40%;
-font-size: 30px;
+font-size: 27px;
 }
 
 .project-features h2,.project-objective h2,.conclusion h2{
 margin-top: 8px;
 width: 100%;
-font-size: 30px;
+font-size: 24px;
 }
 .category h3 {
 margin-top: 8px;
-font-size: 24px;
+font-size: 20px;
+margin-left: 16px;
+}
+
+.project-features li, .project-objective li, .conclusion p {
+padding: 8px;
+font-size: 16px;
+line-height: 24px;
 }
 
 .project-info {
-font-size: 20px;
+font-size: 16px;
 line-height: 32px;
 align-items: center;
 text-align: left;
@@ -2524,28 +2548,12 @@ align-items: center;
 padding: 20px;
 margin-top: 128px;
 background-color: #FFFFF0;
-width: 150%;
+width: 100%;
 box-shadow: rgba(0, 0, 0, 0.1px);
 height: 100%;
 border-radius: 20px;
 margin-left: 8px;
 }
-
-/* #navigation-manual {
-position: absolute;
-width: 540px;
-margin-top: -31px;
-display: flex;
-justify-content: center;
-}
-
-#navigation-auto {
-position: absolute;
-display: flex;
-width: 540px;
-justify-content: center;
-margin-top: 363px;
-} */
 
 .back-button {
 margin-top: 72px;
@@ -2566,7 +2574,7 @@ margin-top: 116px;
 }
 
 #gym_details {
-height: 64vh;
+height: 40vh;
 background-color: #fffff0;
 border-radius: 30px;
 margin-bottom: 32px;
@@ -2577,22 +2585,22 @@ margin-top: 0px;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 20px;
+padding: 0px;
 margin-top: 128px;
 background-color: #FFFFF0;
 box-shadow: rgba(0, 0, 0, 0.1px);
-height: 157vh;
-width: 150%;
+height: 110vh;
+width: 100%;
 }
 
 #project{
 margin-bottom:180px;
-height:100vh;
+height:56vh;
 }
 
 #footer1{
 position: relative;
-width: 151%;
+width: 102%;
 }
 }
 
