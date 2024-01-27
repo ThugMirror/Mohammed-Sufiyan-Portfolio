@@ -129,12 +129,14 @@
 .role-container .static_text {
   color: black;
   padding: 8px;
-  width: 127px;
+  width: 18vh;
   margin-top: 16px;
 }
 
 .words {
   overflow: hidden;
+  text-align: left;
+  width: 50vh;
 }
 
 .words span {
@@ -1029,7 +1031,7 @@ margin-top: 128px;
 background-color: #FFFFF0;
 width: 100%;
 box-shadow: rgba(0, 0, 0, 0.1px);
-height: 156vh;
+height: 120vh;
 }
 
 .project-title {
@@ -1050,7 +1052,7 @@ background: #FFFFF0;
 }
 
 .slider-container{
-height: 90vh;
+height: 70vh;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -1079,14 +1081,14 @@ margin-top: 64px;
 
 .slide img, .slidet img {
 width: 100%;
-height: 72vh;
+height: 56vh;
 border-radius: 15px;
 }
 
 .navigation-manual {
 position: absolute;
 width: 496px;
-margin-top: -42px;
+margin-top: -48px;
 display: flex;
 justify-content: center;
 }
@@ -1096,7 +1098,7 @@ position: absolute;
 display: flex;
 width: 496px;
 justify-content: center;
-margin-top: 409px;
+margin-top: 511px;
 }
 
 .project-description {
@@ -1123,7 +1125,7 @@ margin-top: 24px;
 }
 
 .gym{
-  height: 78vh;
+  height: 70vh;
   background-color: #fffff0;
   border-radius: 30px;
   margin-bottom: 40px;
@@ -1132,7 +1134,7 @@ margin-top: 24px;
 }
 .gym img{
 width:100%;
-height: 90vh;
+height: 70vh;
 border-radius: 20px;
 }
 
@@ -1310,7 +1312,7 @@ margin-top: 128px;
 background-color: #FFFFF0;
 width: 100%;
 box-shadow: rgba(0, 0, 0, 0.1px);
-height: 220vh;
+height: 105vh;
 }
 
 .project-title {
@@ -1330,7 +1332,7 @@ background: #FFFFF0;
 }
 
 .slider-container{
-height: 154vh;
+height: 74vh;
 width: 100%;
 display: flex;
 justify-content: center;
@@ -1550,7 +1552,7 @@ margin-top: 32px;
   .contact-container {
     padding: 20px 24px;
     margin-top: 128px;
-    height: 90vh;
+    height: 60vh;
     background-color: #E9DCD0;
     width: 150%;
   }
@@ -2067,7 +2069,7 @@ margin-top: 128px;
   background-color: #E9DCD0;
   box-shadow: 0 0 20px #555;
   width: 150%;
-  height: 750px;
+  height: 132vh;
 }
 .left-side {
 flex: 1;
@@ -2080,18 +2082,30 @@ margin-left: 0;
 width: 100%;
 }
 .left-side h2 {
-font-size: 32px;
-line-height: 48px;
+font-size: 50px;
+line-height: 50px;
 font-weight: 500;
-margin-bottom: 32px;
+margin-bottom: 72px;
 color: black;
 width: 100%;
+margin-top: 128px;
 }
 .left-side p {
-font-size: 20px;
-line-height: 24px;
+font-size: 26px;
+line-height: 30px;
 color: #555;
-margin-bottom: 24px;
+margin-bottom: 50px;
+}
+#contact-details {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom: 16px;
+font-size: 28px;
+line-height: 50px;
+}
+#contact-tools-card h3{
+font-size: 30px;
 }
 }
 
@@ -2169,7 +2183,7 @@ margin-bottom: 24px;
       background-color: #E9DCD0;
       box-shadow: 0 0 20px #555;
       width: 166%;
-      height: 240vh;
+      height: 150vh;
   }
   .left-side {
     flex: 1;
@@ -2534,7 +2548,7 @@ margin-top: 363px;
 } */
 
 .back-button {
-margin-top: 150px;
+margin-top: 72px;
 width: 90%;
 font-size: 24px;
 padding: 10px 15px;
@@ -2552,7 +2566,7 @@ margin-top: 116px;
 }
 
 #gym_details {
-height: 42vh;
+height: 64vh;
 background-color: #fffff0;
 border-radius: 30px;
 margin-bottom: 32px;
@@ -2567,12 +2581,18 @@ padding: 20px;
 margin-top: 128px;
 background-color: #FFFFF0;
 box-shadow: rgba(0, 0, 0, 0.1px);
-height: 116vh;
+height: 157vh;
 width: 150%;
 }
 
 #project{
-margin-bottom:180px
+margin-bottom:180px;
+height:100vh;
+}
+
+#footer1{
+position: relative;
+width: 151%;
 }
 }
 
@@ -2772,7 +2792,7 @@ margin-top: 246px;
   background-color: #FFFFF0;
   width: 164%;
   box-shadow: rgba(0, 0, 0, 0.1px);
-  height: 240vh;
+  height: 108vh;
   border-radius: 20px;
   margin-left: 8px;
 }
@@ -2780,7 +2800,7 @@ margin-top: 246px;
   margin-bottom: 128px;
   width: 90%;
   text-align: center;
-  height: 236vh;
+  height: 130vh;
   margin-top: 16px;
   box-shadow: rgba(15, 15, 15, 0.75px);
   background: #FFFFF0;
@@ -2802,17 +2822,15 @@ margin-top: 246px;
 }
 
 #gym_details {
-  height: 150vh;
+  height: 70vh;
   background-color: #fffff0;
   border-radius: 30px;
   margin-bottom: 32px;
 }
 
-#project{
 
-}
 
-#gym img {
+#gym_details img {
   width: 70%;
   height: 600px;
   border-radius: 60px;
@@ -2827,13 +2845,13 @@ margin-top: 246px;
   background-color: #FFFFF0;
   width: 164%;
   box-shadow: rgba(0, 0, 0, 0.1px);
-  height: 380vh;
+  height: 180vh;
   border-radius: 20px;
   margin-left: 4px;
 }
 
 #back-button{
-  margin-top: 246px;
+  margin-top: 100px;
 }
 
 #footer1{
